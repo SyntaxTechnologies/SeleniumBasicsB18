@@ -29,6 +29,19 @@ public class Locators2 {
         WebElement message = driver.findElement(By.className("login_info"));
         String text = message.getText();
         System.out.println(text);
+//confirming
+//        by using title
+        String title = driver.getTitle();
+        System.out.println(title);
+        if(title.equals("Web Orders"))
+        {
+            System.out.println("you have logged in");
+        }
+        else {
+            System.out.println("you have not logged in");
+        }
+
+
 
     }
 }
