@@ -1,0 +1,58 @@
+
+----------------------------------------------CSS----------------------------
+
+1. get an Element using CSS selector
+
+     	a. syntax :
+				tagname[attribute = 'attribute value']
+
+
+the beauty about CSS selector is that instead of wiritng the full syntax u can also use shortcuts
+
+ classname ---> tagname [classname='value']  u can write  "tagname.value"   --->   .
+
+ ID      ---->  tagname [id='value']  u can write        "tagname#value"    --->  #
+
+
+
+Note:
+
+     In css selector we donot have this option of getting an element by TEXT
+
+
+
+     but CSS has this contains method that can be used
+     					 Syntax: for contains method for css
+
+     					 tagname[attribute *= 'partial attribute value']   where  * means contains here
+
+       CSS has someother amazing features to like
+       					a.starts-with method in css:
+       					     tagname[attribute ^= 'starting attribute value'] where ^ means starts with
+
+       					     example:  <input id="abra ca dabra hello" ,email ="rote"/>
+       					     CSS using starts with method:
+
+       					       			input[id ^= 'abra ca dab']
+
+
+       					b.ends-with method in css:
+								$ symbol represents ends-with method in css
+							Syntax:
+								tagname[attribute $= 'ending attribute value']
+
+								Example:
+									example: <input id="abra ca dabra hello" ,email ="rote"/>
+
+									write the CSS selector using ends with method:
+									 input[id $= 'hello']
+
+
+
+------------------------------------WebElement Commands---------------------------------------------
+
+isEnabled()--> check if the radio button can be selected or not  (if not selectable usually it is greyed out.
+isDisplayed() --> checks if the webElment is displayed on the page or not
+isSelected()-->checks if the radio button is selected or not (return true if selected)
+clear()
+
