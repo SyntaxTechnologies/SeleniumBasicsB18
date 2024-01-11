@@ -50,4 +50,3 @@ Approach to select the single checkbox:
  selectByIndex();
  You can also use deselect methods in case of a multi-select dropdown.
  To check if the dropdown is multi-select or not, you can use the isMultiple() method, which returns a boolean true if it is a multi-select dropdown.
- 
